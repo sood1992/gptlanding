@@ -1,0 +1,12 @@
+{
+  "name": "gptlanding",
+  "version": "1.0.0",
+  "description": "NeoFox Media inspired landing page with editable admin panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
