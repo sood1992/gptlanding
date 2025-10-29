@@ -434,7 +434,7 @@ const setStatus = (message, tone = 'info') => {
 const loadContent = async () => {
   setStatus('Loading content…');
   try {
-    const response = await fetch('/api/content');
+    const response = await fetch('api/content.php');
     if (!response.ok) throw new Error('Unable to load content');
     content = await response.json();
     buildAdminForm();
@@ -448,12 +448,15 @@ const saveContent = async () => {
   if (!content) return;
   setStatus('Saving changes…');
   try {
-    const response = await fetch('/api/content', {
-      method: 'PUT',
+    const response = await fetch('api/content.php', {
+      method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(content),
     });
-    if (!response.ok) throw new Error('Failed to save content');
+    const result = await response.json();
+    if (!response.ok || result.error) {
+      throw new Error(result?.error || 'Failed to save content');
+    }
     setStatus('Saved successfully.', 'success');
   } catch (error) {
     setStatus(error.message, 'error');

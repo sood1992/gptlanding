@@ -1,3 +1,7 @@
+<?php
+$contentPath = __DIR__ . '/data/content.json';
+$lastUpdated = file_exists($contentPath) ? date('F j, Y g:i a', filemtime($contentPath)) : 'never';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +11,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body class="admin-body">
   <div class="admin-container">
     <header class="admin-header">
       <h1>Content Admin</h1>
-      <p>Update landing page copy, media and call-to-actions. Changes are saved to <code>data/content.json</code>.</p>
-      <button id="refresh-content" class="button button-outline">Reload content</button>
-      <button id="save-content" class="button">Save changes</button>
+      <p>Update landing page copy, media, and call-to-actions. Changes are saved to <code>data/content.json</code>.</p>
+      <p class="admin-meta">Last updated: <?= htmlspecialchars($lastUpdated, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p>
+      <div class="admin-actions">
+        <button id="refresh-content" class="button button-outline">Reload content</button>
+        <button id="save-content" class="button">Save changes</button>
+      </div>
     </header>
     <div id="admin-status" class="admin-status"></div>
     <form id="admin-form" class="admin-form"></form>
   </div>
-  <script src="/admin.js" type="module"></script>
+  <script src="assets/admin.js" type="module"></script>
 </body>
 </html>
