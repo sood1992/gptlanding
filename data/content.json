@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "NeoFox Media x NeuroID Experience",
+    "description": "Scaling brands with neuro-driven creative strategy, paid social mastery, and CRO that converts."
+  },
+  "nav": {
+    "logoText": "NeoFox Media",
+    "cta": {
+      "label": "Book Strategy Call",
+      "href": "#contact"
+    },
+    "links": [
+      { "label": "Work", "href": "#case-studies" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Approach", "href": "#approach" },
+      { "label": "Testimonials", "href": "#testimonials" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "NEURO-DRIVEN GROWTH STUDIO",
+    "title": "Launch magnetic customer journeys that convert curiosity into conviction.",
+    "subtitle": "We merge neuroscience-backed storytelling with performance marketing to engineer campaigns that scale across every channel.",
+    "primaryCta": {
+      "label": "Start a project",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "View capabilities",
+      "href": "#services"
+    },
+    "backgroundVideo": "https://player.vimeo.com/video/826273623?h=fc4b2c1f3a&autoplay=1&muted=1&loop=1"
+  },
+  "clients": {
+    "headline": "Brands evolving with us",
+    "logos": [
+      { "name": "NeuroID", "url": "https://assets.neofoxmedia.com/logos/neuro-id.svg" },
+      { "name": "HyperLoop", "url": "https://assets.neofoxmedia.com/logos/hyperloop.svg" },
+      { "name": "Pulse", "url": "https://assets.neofoxmedia.com/logos/pulse.svg" },
+      { "name": "Atlas", "url": "https://assets.neofoxmedia.com/logos/atlas.svg" },
+      { "name": "Gravity", "url": "https://assets.neofoxmedia.com/logos/gravity.svg" }
+    ]
+  },
+  "services": {
+    "headline": "Full-funnel services engineered for velocity",
+    "description": "Our team of creative directors, media buyers, and behavioral scientists combine to ship bold ideas that stay accountable to the numbers.",
+    "items": [
+      {
+        "title": "Creative Direction & Production",
+        "description": "Concept development, live-action and motion production, modular asset builds, and neuro-tested messaging frameworks."
+      },
+      {
+        "title": "Paid Social & Lifecycle",
+        "description": "Performance media buying across Meta, TikTok, YouTube, and email/SMS automation tuned to your LTV model."
+      },
+      {
+        "title": "Conversion Design & CRO",
+        "description": "Landing page systems, UX experimentation, and analytics infrastructure to convert every micro-interaction."
+      }
+    ]
+  },
+  "caseStudies": {
+    "headline": "Selected launches",
+    "cards": [
+      {
+        "title": "NeuroID",
+        "category": "Fintech Intelligence",
+        "description": "Repositioned the platform with a cinematic hero, modular storytelling, and retention-focused lifecycle. Result: 178% lift in qualified demos.",
+        "mediaType": "video",
+        "mediaUrl": "https://player.vimeo.com/video/803294517?h=f5fb60d723"
+      },
+      {
+        "title": "Loop",
+        "category": "AI Retail",
+        "description": "Launched a new product line with tactile visuals, immersive landing experiences, and in-store AR prompts.",
+        "mediaType": "image",
+        "mediaUrl": "https://images.neofoxmedia.com/case-loop.jpg"
+      },
+      {
+        "title": "Pulse",
+        "category": "Health Tech",
+        "description": "Paired biometrics-led storytelling with iterative ad creative to drop CPA by 34% in eight weeks.",
+        "mediaType": "image",
+        "mediaUrl": "https://images.neofoxmedia.com/case-pulse.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "headline": "What our partners are saying",
+    "items": [
+      {
+        "quote": "NeoFox Media is the first partner that translates neuroscience insights into ads that actually scale.",
+        "author": "Avery Chen",
+        "role": "VP Growth, NeuroID"
+      },
+      {
+        "quote": "From storyboard to final edit, their process keeps creative velocity insanely high.",
+        "author": "Jonas Patel",
+        "role": "Head of Brand, Loop"
+      },
+      {
+        "quote": "Our conversion rate jumped immediately after the landing system launch. The numbers don't lie.",
+        "author": "Emilia Vargas",
+        "role": "CMO, Pulse"
+      }
+    ]
+  },
+  "approach": {
+    "headline": "Our approach blends science and craft",
+    "steps": [
+      {
+        "title": "Decode",
+        "description": "Audit existing journeys, identify neuro triggers, and align with growth model."
+      },
+      {
+        "title": "Design",
+        "description": "Prototype narratives, map asset suites, and craft modular landing systems."
+      },
+      {
+        "title": "Deploy",
+        "description": "Launch creative sprints, optimize paid social, and engineer iterative CRO tests."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to engineer your next growth leap?",
+    "description": "Book a working session with our strategists and walk away with a roadmap built on evidence and experimentation.",
+    "button": {
+      "label": "Book a strategy call",
+      "href": "mailto:hello@neofoxmedia.com"
+    }
+  },
+  "contact": {
+    "headline": "Share your challenge",
+    "description": "Tell us about your brand, goals, and timelines. We'll respond within 24 hours.",
+    "formAction": "https://formspree.io/f/example",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "email", "label": "Email", "type": "email", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "required": false },
+      { "name": "budget", "label": "Estimated budget", "type": "text", "required": false },
+      { "name": "message", "label": "Project details", "type": "textarea", "required": true }
+    ]
+  },
+  "footer": {
+    "address": "345 Market Street, Suite 210, San Francisco, CA",
+    "email": "hello@neofoxmedia.com",
+    "phone": "+1 (415) 555-0126",
+    "social": [
+      { "label": "Instagram", "href": "https://instagram.com/neofoxmedia" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/company/neofoxmedia" },
+      { "label": "YouTube", "href": "https://youtube.com/@neofoxmedia" }
+    ]
+  }
+}
